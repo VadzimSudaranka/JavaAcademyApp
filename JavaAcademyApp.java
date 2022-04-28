@@ -7,7 +7,7 @@ public class JavaAcademyApp {
                     symbols[c - 'a']++;
                 } else if ((c >= 'A') && (c <= 'Z')) {
                     symbols[c - 'A']++;
-
+                }
             }
             for (int i = 0; i < 26; i++){
                 if (symbols[i] != 0){
@@ -15,5 +15,5 @@ public class JavaAcademyApp {
                 }
             }
         }
-    }}
+    }
 
